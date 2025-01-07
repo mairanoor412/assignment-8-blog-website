@@ -15,7 +15,7 @@ const Blog = async ({ params: { slug } }: { params: { slug: string } }) => {
 
 
     return (
-        <div>
+        <div className="bg-white text-black">
             <Image src={urlFor(post.image).url()}
                 alt={post.title} width={250} height={200} className="w-full h-[320px] md:w-[600px] md:h-[400px] lg:w-[1000px] lg:h-[450px] md:m-auto py-2" />
             <div className="min-w-full px-5 py-10 sm:px-8 md:px-10 flex flex-col  ">

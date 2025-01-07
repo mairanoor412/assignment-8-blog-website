@@ -25,7 +25,7 @@ const Home = async () => {
   console.log(posts);
 
   return (
-    <div className="h-auto mb-10">
+    <div className="h-auto mb-10 bg-white">
       <HeroSection></HeroSection>
       <p className="text-[40px] text-center text-black font-[700] pt-10"> Recent Blogs</p>
       <div className="mt-12 grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 rounded-[5px] bg-white ">
@@ -44,7 +44,7 @@ const Home = async () => {
              
               <p className="my-3 text-[16px] line-clamp-4 text-black"> {blogs.description} </p>
             
-             <p className="flex justify-end text-[14px] hover:text-blue-900 hover:font-[800] pr-3"> Read More... </p>
+             <p className="flex justify-end text-[14px] text-black hover:text-blue-900 hover:font-[800] pr-3"> Read More... </p>
              </Link>
              
 
