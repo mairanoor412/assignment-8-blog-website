@@ -25,9 +25,9 @@ const Home = async () => {
   console.log(posts);
 
   return (
-    <div className="h-auto mb-10 bg-white">
+    <div className="h-auto pb-10 bg-white">
       <HeroSection></HeroSection>
-      <p className="text-[40px] text-center text-black font-[700] pt-10"> Recent Blogs</p>
+      <p className=" text-[20px] lg:text-[40px] text-center text-black font-[700] pt-10"> Recent Blogs</p>
       <div className="mt-12 grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 rounded-[5px] bg-white ">
      
         {posts.map((blogs) => (
